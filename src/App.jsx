@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import EmptyPage from "./pages/EmptyPage";
+import EmptyPage from "./pages/Emptypage";
 
 function AppContent() {
   const { user } = useAuth();
